@@ -1,1 +1,9 @@
 C:\Users\dewey\OneDrive\Certificate IV in Programming\C#\Week 8 - Collections\BlogStorage(CollectionsEx2)\BlogStorage(CollectionsEx2)\bin\Debug\BlogStorage(CollectionsEx2).exe.config
+C:\Users\dewey\OneDrive\Certificate IV in Programming\C#\Week 8 - Collections\BlogStorage(CollectionsEx2)\BlogStorage(CollectionsEx2)\obj\Debug\BlogStorage(CollectionsEx2).csprojResolveAssemblyReference.cache
+C:\Users\dewey\OneDrive\Certificate IV in Programming\C#\Week 8 - Collections\BlogStorage(CollectionsEx2)\BlogStorage(CollectionsEx2)\obj\Debug\BlogStorage_CollectionsEx2_.Form1.resources
+C:\Users\dewey\OneDrive\Certificate IV in Programming\C#\Week 8 - Collections\BlogStorage(CollectionsEx2)\BlogStorage(CollectionsEx2)\obj\Debug\BlogStorage_CollectionsEx2_.Properties.Resources.resources
+C:\Users\dewey\OneDrive\Certificate IV in Programming\C#\Week 8 - Collections\BlogStorage(CollectionsEx2)\BlogStorage(CollectionsEx2)\obj\Debug\BlogStorage(CollectionsEx2).csproj.GenerateResource.Cache
+C:\Users\dewey\OneDrive\Certificate IV in Programming\C#\Week 8 - Collections\BlogStorage(CollectionsEx2)\BlogStorage(CollectionsEx2)\bin\Debug\BlogStorage(CollectionsEx2).exe
+C:\Users\dewey\OneDrive\Certificate IV in Programming\C#\Week 8 - Collections\BlogStorage(CollectionsEx2)\BlogStorage(CollectionsEx2)\bin\Debug\BlogStorage(CollectionsEx2).pdb
+C:\Users\dewey\OneDrive\Certificate IV in Programming\C#\Week 8 - Collections\BlogStorage(CollectionsEx2)\BlogStorage(CollectionsEx2)\obj\Debug\BlogStorage(CollectionsEx2).exe
+C:\Users\dewey\OneDrive\Certificate IV in Programming\C#\Week 8 - Collections\BlogStorage(CollectionsEx2)\BlogStorage(CollectionsEx2)\obj\Debug\BlogStorage(CollectionsEx2).pdb

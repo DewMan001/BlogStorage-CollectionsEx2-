@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.txt_NameID = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txt_BlogText = new System.Windows.Forms.TextBox();
@@ -37,6 +38,7 @@
             this.btn_BlogSearch = new System.Windows.Forms.Button();
             this.txt_BlogSearchBox = new System.Windows.Forms.TextBox();
             this.lbox_BlogSearchResults = new System.Windows.Forms.ListBox();
+            this.tTip_SearchBlog = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // txt_NameID
@@ -97,7 +99,9 @@
             this.btn_BlogSearch.Size = new System.Drawing.Size(137, 26);
             this.btn_BlogSearch.TabIndex = 11;
             this.btn_BlogSearch.Text = "Search";
+            this.tTip_SearchBlog.SetToolTip(this.btn_BlogSearch, "Type in a name of a blog user, or put nothing in and get everything!");
             this.btn_BlogSearch.UseVisualStyleBackColor = true;
+            this.btn_BlogSearch.Click += new System.EventHandler(this.btn_BlogSearch_Click);
             // 
             // txt_BlogSearchBox
             // 
@@ -147,6 +151,7 @@
         private System.Windows.Forms.Button btn_BlogSearch;
         private System.Windows.Forms.TextBox txt_BlogSearchBox;
         private System.Windows.Forms.ListBox lbox_BlogSearchResults;
+        private System.Windows.Forms.ToolTip tTip_SearchBlog;
     }
 }
 

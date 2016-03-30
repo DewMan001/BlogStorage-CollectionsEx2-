@@ -41,6 +41,16 @@ namespace BlogStorage_CollectionsEx2_
         private void addToBlogStore(string fullIDKey, string blogPost)
         {
             blogStore.Add(fullIDKey, blogPost);
+            txt_NameID.Text = String.Empty;
+            txt_BlogText.Text = String.Empty;
+        }
+
+        private void btn_BlogSearch_Click(object sender, EventArgs e)
+        {
+            foreach (DictionaryEntry blogEntry in blogStore)
+            {
+                lbox_BlogSearchResults.Items.Add("User and post number:" + blogEntry.Key + " | " + blogEntry.Value);
+            }
         }
     }
 }
