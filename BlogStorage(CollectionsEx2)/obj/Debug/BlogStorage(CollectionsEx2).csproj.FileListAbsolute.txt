@@ -1,0 +1,1 @@
+C:\Users\dewey\OneDrive\Certificate IV in Programming\C#\Week 8 - Collections\BlogStorage(CollectionsEx2)\BlogStorage(CollectionsEx2)\bin\Debug\BlogStorage(CollectionsEx2).exe.config
