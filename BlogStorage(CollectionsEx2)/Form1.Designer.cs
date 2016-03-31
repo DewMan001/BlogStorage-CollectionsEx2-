@@ -39,6 +39,7 @@
             this.txt_BlogSearchBox = new System.Windows.Forms.TextBox();
             this.lbox_BlogSearchResults = new System.Windows.Forms.ListBox();
             this.tTip_SearchBlog = new System.Windows.Forms.ToolTip(this.components);
+            this.btn_ClearSearch = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txt_NameID
@@ -86,7 +87,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(92, 210);
+            this.label3.Location = new System.Drawing.Point(94, 205);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(238, 20);
             this.label3.TabIndex = 12;
@@ -94,9 +95,9 @@
             // 
             // btn_BlogSearch
             // 
-            this.btn_BlogSearch.Location = new System.Drawing.Point(394, 233);
+            this.btn_BlogSearch.Location = new System.Drawing.Point(12, 260);
             this.btn_BlogSearch.Name = "btn_BlogSearch";
-            this.btn_BlogSearch.Size = new System.Drawing.Size(137, 26);
+            this.btn_BlogSearch.Size = new System.Drawing.Size(519, 35);
             this.btn_BlogSearch.TabIndex = 11;
             this.btn_BlogSearch.Text = "Search";
             this.tTip_SearchBlog.SetToolTip(this.btn_BlogSearch, "Type in a name of a blog user, or put nothing in and get everything!");
@@ -105,7 +106,7 @@
             // 
             // txt_BlogSearchBox
             // 
-            this.txt_BlogSearchBox.Location = new System.Drawing.Point(12, 233);
+            this.txt_BlogSearchBox.Location = new System.Drawing.Point(12, 228);
             this.txt_BlogSearchBox.Name = "txt_BlogSearchBox";
             this.txt_BlogSearchBox.Size = new System.Drawing.Size(376, 26);
             this.txt_BlogSearchBox.TabIndex = 10;
@@ -114,16 +115,27 @@
             // 
             this.lbox_BlogSearchResults.FormattingEnabled = true;
             this.lbox_BlogSearchResults.ItemHeight = 20;
-            this.lbox_BlogSearchResults.Location = new System.Drawing.Point(12, 265);
+            this.lbox_BlogSearchResults.Location = new System.Drawing.Point(12, 305);
             this.lbox_BlogSearchResults.Name = "lbox_BlogSearchResults";
             this.lbox_BlogSearchResults.Size = new System.Drawing.Size(519, 144);
             this.lbox_BlogSearchResults.TabIndex = 9;
+            // 
+            // btn_ClearSearch
+            // 
+            this.btn_ClearSearch.Location = new System.Drawing.Point(394, 226);
+            this.btn_ClearSearch.Name = "btn_ClearSearch";
+            this.btn_ClearSearch.Size = new System.Drawing.Size(137, 31);
+            this.btn_ClearSearch.TabIndex = 13;
+            this.btn_ClearSearch.Text = "Clear Search";
+            this.btn_ClearSearch.UseVisualStyleBackColor = true;
+            this.btn_ClearSearch.Click += new System.EventHandler(this.btn_ClearSearch_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(543, 421);
+            this.ClientSize = new System.Drawing.Size(543, 461);
+            this.Controls.Add(this.btn_ClearSearch);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btn_BlogSearch);
             this.Controls.Add(this.txt_BlogSearchBox);
@@ -152,6 +164,7 @@
         private System.Windows.Forms.TextBox txt_BlogSearchBox;
         private System.Windows.Forms.ListBox lbox_BlogSearchResults;
         private System.Windows.Forms.ToolTip tTip_SearchBlog;
+        private System.Windows.Forms.Button btn_ClearSearch;
     }
 }
 
