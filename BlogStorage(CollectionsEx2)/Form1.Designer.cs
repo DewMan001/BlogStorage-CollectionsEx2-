@@ -36,10 +36,10 @@
             this.btn_BlogSubmit = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.btn_BlogSearch = new System.Windows.Forms.Button();
-            this.txt_BlogSearchBox = new System.Windows.Forms.TextBox();
             this.lbox_BlogSearchResults = new System.Windows.Forms.ListBox();
             this.tTip_SearchBlog = new System.Windows.Forms.ToolTip(this.components);
             this.btn_ClearSearch = new System.Windows.Forms.Button();
+            this.cboBox_BlogSearchBox = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // txt_NameID
@@ -104,13 +104,6 @@
             this.btn_BlogSearch.UseVisualStyleBackColor = true;
             this.btn_BlogSearch.Click += new System.EventHandler(this.btn_BlogSearch_Click);
             // 
-            // txt_BlogSearchBox
-            // 
-            this.txt_BlogSearchBox.Location = new System.Drawing.Point(12, 228);
-            this.txt_BlogSearchBox.Name = "txt_BlogSearchBox";
-            this.txt_BlogSearchBox.Size = new System.Drawing.Size(376, 26);
-            this.txt_BlogSearchBox.TabIndex = 10;
-            // 
             // lbox_BlogSearchResults
             // 
             this.lbox_BlogSearchResults.FormattingEnabled = true;
@@ -130,15 +123,23 @@
             this.btn_ClearSearch.UseVisualStyleBackColor = true;
             this.btn_ClearSearch.Click += new System.EventHandler(this.btn_ClearSearch_Click);
             // 
+            // cboBox_BlogSearchBox
+            // 
+            this.cboBox_BlogSearchBox.FormattingEnabled = true;
+            this.cboBox_BlogSearchBox.Location = new System.Drawing.Point(12, 226);
+            this.cboBox_BlogSearchBox.Name = "cboBox_BlogSearchBox";
+            this.cboBox_BlogSearchBox.Size = new System.Drawing.Size(376, 28);
+            this.cboBox_BlogSearchBox.TabIndex = 14;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(543, 461);
+            this.Controls.Add(this.cboBox_BlogSearchBox);
             this.Controls.Add(this.btn_ClearSearch);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btn_BlogSearch);
-            this.Controls.Add(this.txt_BlogSearchBox);
             this.Controls.Add(this.lbox_BlogSearchResults);
             this.Controls.Add(this.btn_BlogSubmit);
             this.Controls.Add(this.label2);
@@ -161,10 +162,10 @@
         private System.Windows.Forms.Button btn_BlogSubmit;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btn_BlogSearch;
-        private System.Windows.Forms.TextBox txt_BlogSearchBox;
         private System.Windows.Forms.ListBox lbox_BlogSearchResults;
         private System.Windows.Forms.ToolTip tTip_SearchBlog;
         private System.Windows.Forms.Button btn_ClearSearch;
+        private System.Windows.Forms.ComboBox cboBox_BlogSearchBox;
     }
 }
 
