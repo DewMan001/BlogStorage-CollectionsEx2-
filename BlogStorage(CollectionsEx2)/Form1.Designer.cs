@@ -135,7 +135,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(543, 461);
+            this.ClientSize = new System.Drawing.Size(542, 461);
             this.Controls.Add(this.cboBox_BlogSearchBox);
             this.Controls.Add(this.btn_ClearSearch);
             this.Controls.Add(this.label3);

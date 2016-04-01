@@ -13,21 +13,22 @@ namespace BlogStorage_CollectionsEx2_
 {
     public partial class Form1 : Form
     {
+        string query;
         public Form1()
         {
             InitializeComponent();
         }
 
         //setting up a hashtable to store the blogs
-        Hashtable blogStore = new Hashtable();
+        Dictionary<string, string> blogStore = new Dictionary<string,string>();
 
-        int userIDnum = 0;
+        int postID = 0;
 
         private void btn_BlogSubmit_Click(object sender, EventArgs e)
         {
             //incrementing the ID number up by one
             //NOTE: this is a unique ID for the entry 
-            userIDnum++;
+            postID++;
 
             //getting and storing the blog post
             string blogPost;
@@ -38,12 +39,12 @@ namespace BlogStorage_CollectionsEx2_
             
             //generating the full userID
             string fullUserID;
-            fullUserID = userName + userIDnum;
+            fullUserID = userName + postID;
 
             addToBlogStore(fullUserID, blogPost);
         
             //adding the keys to the combo box
-            foreach (DictionaryEntry blogPosts in blogStore)
+            foreach (KeyValuePair<string,string> blogPosts in blogStore)
             {
                 cboBox_BlogSearchBox.Items.Add(blogPosts.Key);
             }
@@ -58,6 +59,7 @@ namespace BlogStorage_CollectionsEx2_
 
         private void btn_BlogSearch_Click(object sender, EventArgs e)
         {
+            
             //bool found;
             //found = false;
 
@@ -85,7 +87,9 @@ namespace BlogStorage_CollectionsEx2_
             //    }
             //}
 
-            lbox_BlogSearchResults.Items.Add(cboBox_BlogSearchBox.);
+
+
+            lbox_BlogSearchResults.Items.Add(blogStore[cboBox_BlogSearchBox.Text]);
         }
 
         private void btn_ClearSearch_Click(object sender, EventArgs e)
